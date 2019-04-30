@@ -6,6 +6,8 @@ install.packages("ggplot")
 # Importing the dataset
 dataset = read.csv('Salary_Data.csv')
 
+#heeeeeeeeeeeeeeeeeeeeee jongens
+
 # Splitting the dataset into the Training set and Test set
 library(caTools)
 set.seed(123)
