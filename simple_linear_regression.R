@@ -23,7 +23,7 @@ regressor = lm(formula = Salary ~ YearsExperience,
 
 # Predicting the Test set results
 y_pred = predict(regressor, newdata = test_set)
-
+doei
 # Visualising the Training set results
 library(ggplot2)
 ggplot() +
@@ -45,5 +45,4 @@ ggplot() +
   ggtitle('Salary vs Experience (Test set)') +
   xlab('Years of experience') +
   ylab('Salary')
-
-  print(Joyce)
+print('HOI')
