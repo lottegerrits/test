@@ -1,7 +1,4 @@
-# Simple Linear Regression
-install.packages("caTools")
-install.packages("ggplot2")
-install.packages("ggplot")
+
 
 # Importing the dataset
 dataset = read.csv('Salary_Data.csv')
