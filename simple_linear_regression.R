@@ -47,3 +47,4 @@ ggplot() +
   ylab('Salary')
 
   print(Joyce)
+  print(Hendriks)
