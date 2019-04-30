@@ -8,6 +8,13 @@ dataset = read.csv('Salary_Data.csv')
 
 #heeeeeeeeeeeeeeeeeeeeee jongens
 
+for (i in 1:10){
+  if (i*i*i != 27){
+    next
+  }
+  print(i)
+}
+
 # Splitting the dataset into the Training set and Test set
 library(caTools)
 set.seed(123)
